@@ -25,6 +25,7 @@ public class LibraryManagement{
         library2.start();
 
         LibraryDesk library3 = new LibraryDesk(l1,s3);
+        System.out.println("hi");
         library3.start();
 
         LibraryDesk library4 = new LibraryDesk(l1,s4);
